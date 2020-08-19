@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/Estilos.css">
     <link rel="stylesheet" href="CSS/Sidebar 01.css">
-    <title>Sidebar</title>
+    <title>DefenderCov</title>
 </head>
 <body>
     <header>
@@ -21,17 +21,17 @@
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item active" >
-                    <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#contacto">About</a>
                 </li>
             </ul>
             </div>
           </nav>
         </div>
     </header>
-    <section class="principal">
+    <section class="principal" id="main">
         <div class="img_main">
             <img src="./Imagenes/covid-4948866_1920.jpg" alt="">
         </div>
@@ -45,15 +45,15 @@
         </div>
     </section>
 
-    <section class="concepts">
+    <section class="concepts" id="productos">
         <div class="cards">
             <div class="card pruebas">
                 <div class="imgBox">
                     <img src="./Imagenes/pruebas.png" alt="">
                 </div>
                 <div class="content_card">
-                    <h2>Pruebas</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quis expedita iure dolorem iste consequatur natus laborum ab quod similique.</p>
+                    <h2>Pruebas moleculares</h2>
+                    <p>Detectan directamente el ácido ribonucleico, es decir, el material genético del virus, en las muestras tomadas de secreciones respiratorias del paciente.</p>
                 </div>
             </div>
             <div class="card drones">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="content_card">
                     <h2>Drones</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quis expedita iure dolorem iste consequatur natus laborum ab quod similique.</p>
+                    <p>Drones con sensores termicos que indican mediante mapas de calor las zonas vulnerables para la transmisión del virus.</p>
                 </div>
             </div>
             <div class="card laboratorios">
@@ -71,18 +71,36 @@
                 </div>
                 <div class="content_card">
                     <h2>Laboratorios moviles</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quis expedita iure dolorem iste consequatur natus laborum ab quod similique.</p>
+                    <p>Acondicionados con equipo de última tecnología nos eermiten cubrir grandes zonas para tomar muestras.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="logistica">
-
+    <section class="logistica" id="logistica">
+        <div class="log_info">
+            <h1>Nuestro proceso</h1>
+            <p>
+                <br>Con la ayuda de nuestro equipo de drones, identificamos zonas estrategicas para realizar monitoreo y aplicación de pruebas para la detección de COVID-19.<br>
+                <br>Una vez que reconocemos a posibes pacientes positivos procedemos a elaborar la respectiva prueba molecular.<br>
+                <br>Tomamos medidas de contención y prevención dependiendo de los resultados obtenidos de la prueba<br>
+                <br>Transversalmente, contamos con alianzas estrategias para que el proceso sea manejado de una manera óptima e integrada<br>
+            </p>
+        </div>
+        <div class="img_log">
+            <img src="./Imagenes/mapa.jpg" alt="">
+        </div>
     </section>
 
-    <section class="contacto">
-
+    <section class="contacto" id="contacto">
+        <div class="contact">
+            <img src="./Imagenes/contact.png" alt="">
+            <div class="contact_dates">
+                <h4>Para saber más ponte en contacta con nosotros.</h4>
+                <p>+57 341 033 1305</p>
+                <h4>Si tú te cuidas, nos cuidas a todos.</h4>
+            </div>
+        </div>
     </section>
 
 
@@ -97,32 +115,26 @@
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
-                    <span class="title">Profile</span>
+                    <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <span class="title">Home</span>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <span class="icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
-                    <span class="title">Messages</span>
+                <a href="#productos">
+                    <span class="icon"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+                    <span class="title">Productos</span>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
-                    <span class="title">Help</span>
+                <a href="#logistica">
+                    <span class="icon"><i class="fa fa-map" aria-hidden="true"></i></span>
+                    <span class="title">Logistica</span>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
-                    <span class="title">Settings</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
-                    <span class="title">Sign Out</span>
+                <a href="#contacto">
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="title">Contacto</span>
                 </a>
             </li>
         </ul>
