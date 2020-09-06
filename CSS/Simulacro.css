@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body{
+    height: 100%;
+    min-height: 100vh;
+    background: #000319;
+}
+
+
+.sim_content{
+    width: 80%;
+    height: 100%;
+    background:rgba(22, 26, 66, 1);
+    margin: 100px auto;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.content_exp h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: #000319;
+    border-bottom: 1px solid white;
+    border-radius: 20px 20px 0 0;
+}
+
+.content_exp .description{
+    width: 90%;
+    margin: 30px auto;
+    text-align: justify;
+    color: white;
+    background: rgba(132, 222, 213, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content_exp .modelo{
+    width: 90%;
+    margin: 30px auto;
+    text-align: justify;
+    display: flex;
+}
+
+.content_exp .modelo p{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content_exp h2{
+    color: white;
+    width: 90%;
+    margin: 30px auto;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content_exp .part2 img{
+    width: 500px;
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.imagenes_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.last_part{
+    width: 90%;
+    margin: 30px auto;
+    text-align: justify;   
+}
+
+.content_exp .last_part p{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imagenes_content_last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenes_content_last img{
+    width: 500px;
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+#Footerid{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 6400px;
+    background: rgba(55,51,51,1);
+    color: #bbbaba;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 16px;
+    
+}
+
+#Footerid a{
+    color: #AEAEAE;
+}
+
+#Footerid a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
